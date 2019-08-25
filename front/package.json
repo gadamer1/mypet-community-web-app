@@ -1,0 +1,42 @@
+{
+  "name": "mypet-community-web-app",
+  "version": "0.0.1",
+  "description": "pet-communication-web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gadamer1/mypet-community-web-app.git"
+  },
+  "keywords": [
+    "react",
+    "express"
+  ],
+  "author": "gadamer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gadamer1/mypet-community-web-app/issues"
+  },
+  "homepage": "https://github.com/gadamer1/mypet-community-web-app#readme",
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "immer": "^3.2.0",
+    "next": "^9.0.5",
+    "next-redux-saga": "^4.0.2",
+    "next-redux-wrapper": "^3.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.0.5"
+  }
+}

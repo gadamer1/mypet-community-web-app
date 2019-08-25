@@ -1,0 +1,3 @@
+export const LOAD_USER_REQUEST = "LOAD_USER_REQUEST"; //유저 한명 로드
+export const LOAD_USER_SUCCESS = "LOAD_USER_SUCCESS";
+export const LOAD_USER_FAILURE = "LOAD_USER_FAILURE";
