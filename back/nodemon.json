@@ -1,0 +1,14 @@
+{
+  "watch": [
+    "index.js",
+    "nodemone.json",
+    "routes",
+    "config",
+    "passport",
+    "models",
+    "controllers",
+    ".env"
+  ],
+  "exec": "node index.js",
+  "ext": "js json"
+}
