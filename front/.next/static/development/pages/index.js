@@ -271,10 +271,10 @@ module.exports = invariant;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5Cwebdev%5Cmypet-community-web-app%5Cfront%5Cpages%5Cindex.js!./":
-/*!*******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5Cwebdev%5Cmypet-community-web-app%5Cfront%5Cpages%5Cindex.js ***!
-  \*******************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5C%EC%9A%B0%ED%9D%AC%EC%A4%80%5Cwebdev%5Cmypet-community-web-app%5Cfront%5Cpages%5Cindex.js!./":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5C%EC%9A%B0%ED%9D%AC%EC%A4%80%5Cwebdev%5Cmypet-community-web-app%5Cfront%5Cpages%5Cindex.js ***!
+  \*********************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3593,7 +3593,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var _reducers_post_actions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../reducers/post/actions */ "./reducers/post/actions.js");
-var _jsxFileName = "D:\\webdev\\mypet-community-web-app\\front\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\\uC6B0\uD76C\uC900\\webdev\\mypet-community-web-app\\front\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -3646,13 +3646,13 @@ var LOAD_POSTS_FAILURE = "LOAD_POST_FAILURE";
 /***/ }),
 
 /***/ 0:
-/*!***********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Cwebdev%5Cmypet-community-web-app%5Cfront%5Cpages%5Cindex.js ***!
-  \***********************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5C%EC%9A%B0%ED%9D%AC%EC%A4%80%5Cwebdev%5Cmypet-community-web-app%5Cfront%5Cpages%5Cindex.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Cwebdev%5Cmypet-community-web-app%5Cfront%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5Cwebdev%5Cmypet-community-web-app%5Cfront%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5C%EC%9A%B0%ED%9D%AC%EC%A4%80%5Cwebdev%5Cmypet-community-web-app%5Cfront%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5C%EC%9A%B0%ED%9D%AC%EC%A4%80%5Cwebdev%5Cmypet-community-web-app%5Cfront%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
