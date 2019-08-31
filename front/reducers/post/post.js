@@ -7,7 +7,7 @@ export const initialState = {
 
 export default (state = initialState, action) => {
   return produce(state, draft => {
-    switch (action.data) {
+    switch (action.type) {
       case LOAD_POSTS_REQUEST: {
         break;
       }

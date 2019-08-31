@@ -17,7 +17,7 @@ module.exports = (sequelize, Datatypes) => {
     },
     {
       charset: "utf8",
-      collate: "utf8_general_cli"
+      collate: "utf8_general_ci"
     }
   );
 
@@ -27,9 +27,9 @@ module.exports = (sequelize, Datatypes) => {
       through: "Interest",
       as: "Interester"
     });
-    db.Product.belongsTo(db.User, { as: "Author" });
+    db.Product.belongsToMany(db.User, { through: "Buy", as: "Author" });
     db.Product.belongsToMany(db.Post, { through: "Review", as: "Reviews" });
-    db.Product.belongsToMany(db.Comment);
+    db.Product.hasMany(db.Comment);
   };
 
   return Product;

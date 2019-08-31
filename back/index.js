@@ -10,6 +10,8 @@ const db = require("./models");
 const path = require("path");
 
 const postAPIRouter = require("./routes/post");
+const userAPIRouter = require('./routes/user');
+const checkAPIRouter = require('./routes/check');
 db.sequelize.sync();
 passportConfig(passport);
 
@@ -19,6 +21,11 @@ const app = express();
 app.use(morgan("dev"));
 app.use("/", express.static(path.join(__dirname, "uploads")));
 app.use(express.urlencoded({ extended: true }));
+app.use(cors({
+  origin: true,
+  credentials :true,
+}))
+app.use(express.json());
 app.use(cookieParser(process.env.COOKIE_SECRET));
 app.use(
   expressSession({
@@ -36,6 +43,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use("/api/post", postAPIRouter);
+app.use("/api/user", userAPIRouter);
+app.use("/api/check", checkAPIRouter);
 
 app.listen(process.env.PORT, () => {
   console.log(`http://localhost:${process.env.PORT} 에서 실행중입니다`);

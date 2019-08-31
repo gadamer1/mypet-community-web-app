@@ -7,7 +7,8 @@
     "passport",
     "models",
     "controllers",
-    ".env"
+    ".env",
+    "middlewares"
   ],
   "exec": "node index.js",
   "ext": "js json"
