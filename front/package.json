@@ -21,7 +21,7 @@
     "bn.js": "^4.11.8",
     "brorand": "^1.1.0",
     "browserify-des": "^1.0.2",
-    "browserslist": "^4.6.6",
+    "browserslist": "^4.16.5",
     "buffer": "^4.9.1",
     "buffer-from": "^1.1.1",
     "buffer-xor": "^1.0.3",
