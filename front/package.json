@@ -108,7 +108,7 @@
     "nan": "^2.14.0",
     "negotiator": "^0.6.2",
     "neo-async": "^2.6.1",
-    "next": "^9.0.5",
+    "next": "^11.1.0",
     "next-redux-saga": "^4.0.2",
     "next-redux-wrapper": "^3.0.0",
     "node-fetch": "^2.6.0",
